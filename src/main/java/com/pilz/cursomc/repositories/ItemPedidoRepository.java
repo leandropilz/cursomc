@@ -2,9 +2,9 @@ package com.pilz.cursomc.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import com.pilz.cursomc.domain.Pedido;;
+import com.pilz.cursomc.domain.ItemPedido;
 
 @Repository
-public interface PedidoRepository extends JpaRepository<Pedido, Integer>{
+public interface ItemPedidoRepository extends JpaRepository<ItemPedido, Integer>{
 	
 }
